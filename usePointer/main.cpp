@@ -10,7 +10,7 @@ int main(void)
 	p_int = &x;
 	cout << "Enter a number : ";
 	cin >> x;
-	cout << "number is " << *p_int << '\n'; // 포인터 내용 출력
+	cout << "number is " << *p_int << '\n';
 	cout << "Address x is : " << &x;
 
 	return 0;
