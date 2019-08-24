@@ -10,7 +10,7 @@ int main(void)
 	p_int = &x;
 	cout << "Enter a number : ";
 	cin >> x;
-	cout << "number is " << *p_int << '\n'; // Æ÷ÀÎÅÍ ³»¿ë Ãâ·Â
+	cout << "number is " << *p_int << '\n'; // í¬ì¸í„° ë‚´ìš© ì¶œë ¥
 	cout << "Address x is : " << &x;
 
 	return 0;
