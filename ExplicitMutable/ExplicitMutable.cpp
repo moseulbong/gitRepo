@@ -16,7 +16,7 @@ MyString::MyString(const char* str)
 		string_content[i] = str[i];
 }
 
-MyString::MyString(const MyString& str): string_length(str.string_length)
+MyString::MyString(const MyString& str): string_length(str.string_length), memory_capacity(str.memory_capacity)
 {
 	string_content = new char[string_length];
 	for (int i = 0; str.string_content[i]; i++)

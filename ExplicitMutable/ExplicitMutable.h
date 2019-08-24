@@ -4,7 +4,7 @@
 class MyString
 {
 public:
-	MyString(int capacity);
+	explicit MyString(int capacity);
 	MyString(const char* str);
 	MyString(const MyString& str);
 	~MyString();
