@@ -12,6 +12,8 @@ public:
 	Complex operator*(const Complex&);
 	Complex operator/(const Complex&);
 	Complex& operator=(const Complex&);
+	Complex& operator+=(const Complex&);
+	Complex& operator-=(const Complex&);
 
 	void println(void);
 };

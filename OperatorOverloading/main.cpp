@@ -6,8 +6,7 @@ int main(void)
 	Complex b(3.0, -2.0);
 	Complex c = a * b;
 
+	a += b;
 	c.println();
-	b.println();
-	b = c;
-	b.println();
+	a.println();
 }
